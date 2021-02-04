@@ -14,6 +14,10 @@ function getAllTheFiles(): string[] {
   return [files];
 }
 
+function dylansFeature1Functions(): string {
+  // blah blah blah
+}
+
 // sally is in here making some changes
 async function run() {
   try {
