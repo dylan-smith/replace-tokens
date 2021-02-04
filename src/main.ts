@@ -14,6 +14,7 @@ function getFiles(): string[] {
   return [files];
 }
 
+// sally is in here making some changes
 async function run() {
   try {
     const tokenPrefix = core.getInput("tokenPrefix") || "#{";
