@@ -31,4 +31,12 @@ async function run() {
   }
 }
 
+function sally1() {
+  // foo
+}
+
+function sally2() {
+  // foo
+}
+
 run();
