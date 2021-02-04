@@ -13,7 +13,7 @@ export async function replaceTokens(
     `${escapeDelimiter(tokenPrefix)}(.+?)${escapeDelimiter(tokenSuffix)}`
   );
 
-  const result = await replace({
+  const result = await replaceAll({
     files,
     allowEmptyPaths: true,
     from: fromRegEx,
@@ -24,7 +24,6 @@ export async function replaceTokens(
         return process.env[tokenName] || "";
       }
 
-      // dylan making some changes
       return "";
     }
   });
