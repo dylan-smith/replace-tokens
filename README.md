@@ -23,6 +23,7 @@ If you want to replace `#{CDN}#` and `#{CALLBACK}#` in all of your JS files, add
     CALLBACK: some_value
 ```
 
+more changes by dylan
 If you want to use a different token format, you can specify a custom token prefix/suffix. For example, to replace just tokens like `{CDN}` you could add:
 
 ```yml
