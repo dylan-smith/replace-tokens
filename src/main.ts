@@ -10,16 +10,10 @@ function getAllTheFiles(): string[] {
     return JSON.parse(files);
   }
 
-  // dylan was here
   return [files];
 }
 
-function dylansFeature1Functions(): string {
-  // blah blah blah
-}
-
-// sally is in here making some changes
-async function run() {
+async function runAll() {
   try {
     const tokenPrefix = core.getInput("tokenPrefix") || "#{";
     const tokenSuffix = core.getInput("tokenSuffix") || "}#";
@@ -43,4 +37,4 @@ function sally2() {
   // foo
 }
 
-run();
+runAll();
