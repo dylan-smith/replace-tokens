@@ -1,7 +1,7 @@
 import * as core from "@actions/core";
 import { replaceTokens } from "./replace";
 
-function getFiles(): string[] {
+function getAllFiles(): string[] {
   const files =
     core.getInput("files", {
       required: true
