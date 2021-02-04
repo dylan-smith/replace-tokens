@@ -10,6 +10,7 @@ function getFiles(): string[] {
     return JSON.parse(files);
   }
 
+  // dylan was here
   return [files];
 }
 
